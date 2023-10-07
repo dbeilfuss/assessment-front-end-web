@@ -8,31 +8,55 @@ body {
 }
 
 nav {
-	border-bottom: 2px solid orange;
+  border-bottom: 2px solid orange;
 }
 
 ol {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .crumb {
-	margin-right: 2em;
-	display: inline;
+  margin-right: 2em;
+  display: inline;
 }
 
 a {
-	color: orange;
+  color: orange;
 }
 
 a:visited {
-	color: crimson;
+  color: crimson;
 }
 
-
 input {
-	display: block;
+  display: block;
 }
 
 img {
-	max-width: 300px;
+  max-width: 300px;
+}
+
+.image {
+  max-height: 40px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.hear-about-us-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: stretch;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+p {
+  margin-bottom: 5px;
 }
