@@ -1,3 +1,190 @@
+main {
+  max-width: 1000px; /* This was originally in your body styles */
+  width: 100%; /* Take up full available width but not more than 500px */
+  padding: 1rem;
+  background-color: #f7f8fa;
+  border: 1px solid #e4e7eb;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  height: 100%;
+  background-color: #f7f7f7;
+  font-family: "SF Pro Text", "Roboto", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  border-bottom: 2px solid #d1d1d6;
+  background-color: #fff;
+  padding: 0.5rem 0;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+h6 {
+  margin-top: 0px;
+  font-weight: lighter;
+}
+
+br {
+  margin-top: 10px;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: #007aff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:visited {
+  color: #0051a8; /* Darkened shade on hover and visited */
+}
+
+input {
+  display: block;
+  border: 1px solid #d1d1d6;
+  padding: 0.5rem;
+  border-radius: 5px; /* Soft rounded corners */
+  margin-bottom: 1rem;
+}
+
+img {
+  border-radius: 5px; /* Matching rounded corners for images */
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: stretch;
+  padding-top: 25px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.image-section,
+.text-section {
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 90%;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+
+.half-section {
+  width: 47%;
+}
+
+.image-group {
+  max-height: 40px;
+  box-shadow: none;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.hear-about-us-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  gap: 1rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+body,
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Adding some subtle shadows for depth */
+nav,
+input,
+img,
+button,
+.section {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #fff;
+  color: #007aff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #d1d1d6;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #007aff;
+  color: #fff;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.spaced-out {
+  justify-content: space-between;
+}
+
+/* original css
+
 body {
   background: #ddd;
   margin: 1rem;
@@ -25,7 +212,7 @@ a {
 }
 
 a:visited {
-  color: crimson;
+  color: orange;
 }
 
 input {
@@ -59,4 +246,4 @@ input[type="checkbox"] {
 
 p {
   margin-bottom: 5px;
-}
+} */
