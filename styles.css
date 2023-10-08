@@ -1,6 +1,6 @@
 main {
-  max-width: 1000px; /* This was originally in your body styles */
-  width: 100%; /* Take up full available width but not more than 500px */
+  max-width: 1000px;
+  width: 100%;
   padding: 1rem;
   background-color: #f7f8fa;
   border: 1px solid #e4e7eb;
@@ -52,19 +52,68 @@ a {
 
 a:hover,
 a:visited {
-  color: #0051a8; /* Darkened shade on hover and visited */
+  color: #0051a8;
 }
 
 input {
   display: block;
   border: 1px solid #d1d1d6;
   padding: 0.5rem;
-  border-radius: 5px; /* Soft rounded corners */
+  border-radius: 5px;
   margin-bottom: 1rem;
 }
 
 img {
-  border-radius: 5px; /* Matching rounded corners for images */
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+body,
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav,
+input,
+img,
+button,
+input[type="submit"],
+.section {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"],
+button {
+  background-color: #fff;
+  color: #007aff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #d1d1d6;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="submit"],
+button:hover {
+  background-color: #007aff;
+  color: #fff;
 }
 
 .section {
@@ -127,60 +176,10 @@ img {
   gap: 1rem;
 }
 
-input[type="checkbox"] {
-  margin-right: 0.5rem;
-}
-
-p {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  color: #333;
-}
-
-body,
-h1,
-h2,
-h3 {
-  font-weight: normal;
-  margin: 0px;
-}
-
-h2 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-/* Adding some subtle shadows for depth */
-nav,
-input,
-img,
-button,
-.section {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-button {
-  background-color: #fff;
-  color: #007aff;
-  padding: 10px 15px;
-  border-radius: 5px;
-  border: 1px solid #d1d1d6;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-button:hover {
-  background-color: #007aff;
-  color: #fff;
-}
-
-.inline {
+.title-section {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.spaced-out {
   justify-content: space-between;
 }
 
