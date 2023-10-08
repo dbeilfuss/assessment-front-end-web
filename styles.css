@@ -82,6 +82,7 @@ img {
 
 .image-section,
 .text-section {
+  position: relative;
   padding-top: 0px;
   padding-right: 5px;
   padding-left: 5px;
@@ -181,6 +182,19 @@ button:hover {
 
 .spaced-out {
   justify-content: space-between;
+}
+
+.duck-overlay {
+  position: absolute;
+  top: 47%;
+  left: 60%;
+  width: 13%;
+  height: 25%;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 30px;
+  /* background-color: yellow;
+  opacity: 60%; */
 }
 
 /* original css
