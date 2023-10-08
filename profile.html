@@ -37,7 +37,7 @@
         <div class="section">
             <div class="half-section image-section">
                 <img
-                src="/profilePictures/Screenshot 2023-10-07 at 1.59.54 PM.png"
+                src="shot1.jpg"
                 />
                 <h6>
                     Dan, in his garage, mastering the intrcacies JavaScript/HTML
@@ -74,7 +74,8 @@
             the mysteries of the universe, just holler. I've got a rubber duck
             that loves a good conversation.
           </p>
-        </div></div>
+        </div>
+    </div>
         <br />
         <div class="section">
             <div class="text-section">
@@ -101,7 +102,7 @@
           </div>
         </div>
     </div>
-        <br>
+        <br />
         <div class="section">
             <div class="half-section text-section">
                 <h2>Career Goals:</h2>
@@ -115,18 +116,32 @@
                 </ul>
             </div>
             <div class="half-section image-section">
-                <img src="/profilePictures/Screenshot 2023-10-07 at 4.29.33 PM.png" alt="Dan Delve into Code: Spotted with His Signature Rubber Duck Debugging Buddy">
+                <img src="shot2.jpg" alt="Dan Delve into Code: Spotted with His Signature Rubber Duck Debugging Buddy">
                 <div class="duck-overlay squeaky-duck"></div>
                 <h6>Dan, delving into Code: Spotted with His Signature Rubber Duck Debugging Buddy</h6>
             </div>
         </div>
+        <br />
         <div class="section">
-            <button id="color">My Favorite Color</button>
-<button id="place">My Favorite Place</button>
-<button id="ritual">My Favorite Ritual</button>
+            <div class="half-section">
+            <div class="text-section">
+            <h2>These are a few of my favorite things!</h2>
+            <br />
+                <div class="button-section">
+                    <button id="favorite-color" value=0>My Favorite Color</button>
+                    <button id="favorite-place" value=1>My Favorite Place</button>
+                    <button id="favorite-ritual" value=2>My Favorite Ritual</button>
+                    <button id="bonus-favorites" value=3>My Bonus Favorite</button>
+                </div></div>
+            </div>
+            <div class="half-section"><div class="text-section">
+            <p id="favorite-message"></p>
+            <div id="video" class="hidden"><iframe width=100% height=250 src="https://www.youtube.com/embed/2G6dd7ikrXs?si=RixmynQeAR-N7aLW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            </div></div>
         </div>
       </content>
       <script src="main.js"></script>
+      <script src="favorites.js"></script>
     </body>
   </main>
 </html>
